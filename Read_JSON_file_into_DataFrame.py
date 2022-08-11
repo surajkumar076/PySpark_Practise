@@ -14,3 +14,4 @@ spark
 df_pyspark= spark.read.json('C:\SparkPractice\colors.json')
 df_pyspark.printSchema()
 spark.read.option('header', 'true').csv('C:\SparkPractice\colors.json').show()
+

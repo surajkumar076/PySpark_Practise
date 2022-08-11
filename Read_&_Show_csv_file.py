@@ -11,3 +11,4 @@ import pandas as pd
 df_pyspark= spark.read.csv('C:\SparkPractice\sample2.csv')
 
 spark.read.option('header', 'true').csv('C:\SparkPractice\sample2.csv').show()
+

@@ -13,6 +13,7 @@ Output:-
 |1223_0|   1223|     0|
 +------+-------+------+
 '''
+
 import pyspark
 from pyspark.sql import SparkSession
 
